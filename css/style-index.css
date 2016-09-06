@@ -36,6 +36,11 @@ li>a{
 .p{
 	font-size: 35px;
 }
+			/*MODALS*/
+form{
+	background-color: silver;
+	padding:3%;
+}
 			/*SECTION*/
 h1{
 	font-family: 'Baloo Paaji', cursive;
