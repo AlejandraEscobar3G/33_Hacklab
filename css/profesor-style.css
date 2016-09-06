@@ -1,17 +1,52 @@
-			/*QUERYS*/
+.img-logo{
+  width: 100%;
+}			/*QUERYS*/
 @media (min-width: 768px) {
-  
+    .img-logo{
+    width: 80%;
+  }
 }
 @media (min-width: 992px) {
-  
+    .img-logo{
+    width: 60%;
+  }
 }
 @media (min-width: 1200px) {
-  
+    .img-logo{
+    width: 40%;
+  }
 }
       /*HEADER*/
-.img-logo{
-  width: 40%;
-}
 .pt-3{
   padding-top: 3%;
+}
+      /*SECTION*/
+.azul{
+  background-color: #00358E;
+}
+.verde{
+  background-color: #98BF13;
+}
+.naranja{
+  background-color: #EC7E1F;
+}
+.p-lados{
+  padding: 5% 25%;
+}
+      /*FOOTER*/
+.mt-2{
+  margin-top: 2%;
+}
+      /*HOVER*/
+button.azul:hover{
+  opacity: 0.7;
+  color: white;
+}
+button.naranja:hover{
+  opacity: 0.7;
+  color: white;
+}
+button.verde:hover{
+  opacity: 0.7;
+  color: white;
 }
