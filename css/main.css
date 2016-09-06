@@ -1,14 +1,41 @@
 /*EStilos de la pag bloque*/
+.bck{
+	background-color: #D5D8DC;
+}
+.bck-white{
+	background-color: white;
+	padding: 2%;
+}
 .img-prof{
 	float: left;
-}
-.materia{
-	background-color: #E65400;
-	padding: 1%;
 }
 .text-white{
 	color: white;
 }
 .btn-bl{
 	width: 100%;
+}
+.btn-width{
+	width: 70%;
+}
+.mg-t-1{
+	margin-top: 1%;
+}
+.mg-2{
+	margin-top: 2%;
+}
+.font{
+	font-family: 'Baloo Tamma', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Baloo Paaji', cursive;
+}
+
+/* cambiar tipo de letra */
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ 
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+    background-color: #00378A;
 }
