@@ -1,0 +1,14 @@
+/*EStilos de la pag bloque*/
+.img-prof{
+	float: left;
+}
+.materia{
+	background-color: #E65400;
+	padding: 1%;
+}
+.text-white{
+	color: white;
+}
+.btn-bl{
+	width: 100%;
+}
