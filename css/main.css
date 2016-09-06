@@ -1,6 +1,6 @@
 /*EStilos de la pag bloque*/
 .bck{
-	background-color: #D5D8DC;
+	background-color: #f2f2f2;
 }
 .bck-white{
 	background-color: white;
@@ -17,6 +17,7 @@
 }
 .btn-width{
 	width: 70%;
+	po
 }
 .mg-t-1{
 	margin-top: 1%;
@@ -24,17 +25,18 @@
 .mg-2{
 	margin-top: 2%;
 }
-.font{
+.mg-3{
+	margin-top: 3%;
+}
+.font-bal{
 	font-family: 'Baloo Tamma', cursive;
+}
+.font-ral{
 	font-family: 'Raleway', sans-serif;
+}
+.font-balpal{
 	font-family: 'Baloo Paaji', cursive;
 }
-
-/* cambiar tipo de letra */
-nav.navbar ul.nav li {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
- 
 /* cambiar el color de fondo a la barra */
 nav.navbar {
     background-color: #00378A;
