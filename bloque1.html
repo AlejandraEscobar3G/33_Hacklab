@@ -16,7 +16,7 @@
 			<header>
 				<div class="row bck-white"><!--Primer row de la página-->
 					<div class="col-md-3 col-xs-3">
-						<img src="img/logo.png" alt="Logo" class="img-responsive"><!--Imagen del logo-->
+						<a href="index.html"><img src="img/logo.png" alt="Logo" class="img-responsive"></a><!--Imagen del logo-->
 					</div>
 					<div class="col-md-3 col-xs-3">
 						<img src="img/prof.jpg" alt="Leda" class="img-responsive img-prof hidden-xs img-circle" >
@@ -43,7 +43,50 @@
 						        </div>
 						        <div id="navbarCollapse" class="collapse navbar-collapse">
 						            <ul class="nav navbar-nav">
-						                <li><a href=""><button type="button" class="btn btn-info bt-az">Nuevo</button></a></li>
+						                <li class="mg-3"><!--Boton nuevo que tendra un modal-->
+						                	<button type="button" class="btn btn-info bt-az" data-toggle="modal" data-target="#ventana">Nuevo</button>
+											<div class="modal fade" id="ventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+												<div class=="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+															<h4 class="azul text-center">Archivos</h4>
+															<hr>
+														</div>
+														<div class="modal-body azul">
+															<form role="form">
+																<div class="form-group">
+																    <label for="Titulo">Titulo</label>
+																    <input type="text" class="form-control" id="nombre" placeholder="Introduce el nombre del archivo">
+																</div>
+																<div class="form-group">
+																<label for="echa de entrega">Fecha de entrega</label>
+																    <input for="Fecha de entrega" class="form-control" id="email" placeholder="Introduce la fechal">
+																</div>
+																<label for="Descripcion">Descripción</label>
+																	<div>
+																		<span class="glyphicon glyphicon-align-center"></span>
+																		<span class="glyphicon glyphicon-align-justify"></span>
+																		<span class="glyphicon glyphicon-align-left"></span>
+																		<span class="glyphicon glyphicon-align-right"></span>
+																		<span class="glyphicon glyphicon-bold"></span>
+																		<span class="glyphicon glyphicon-italic"></span>
+																		<span class="glyphicon glyphicon-list"></span>
+																		<span class="glyphicon glyphicon-paperclip"></span>
+																	</div>
+																	<textarea class="form-control" placeholder="Descripción" rows="10"></textarea>
+	                            								<div class="row mg-2">
+	                            									<div class="btn-group">
+	                            										<button type="submit" class="center-block btn btn-primary">Guardar</button>
+	                            										<button type="submit" class="center-block btn btn-primary">Enviar</button>
+	                            									</div>
+	                            								</div>
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+						                </li><!--Fin de boton nuevo-->
 						                <li><a href="#reciente"><button type="button" class="btn btn-info bt-az">Reciente</button></a></li>
 						                <li><a href="#importante"><button type="button" class="btn btn-info bt-az">Importate</button></a></li>
 						                <li><a href="lista.html"><button type="button" class="btn btn-info bt-az">Lista de alumnos</button></a></li>
