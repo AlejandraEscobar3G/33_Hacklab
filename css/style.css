@@ -1,0 +1,69 @@
+.bck{
+	background-image: url(../img/pizarron.jpg);
+	background-size: 100% 100%;
+	
+
+} 
+.circulo{   
+ 	border-radius: 50%;   
+    border: 1px solid white; 
+   	width: 100px;
+   	height: 100px;
+   	text-align: center;
+}
+
+#user{
+	width:100% ;
+	height:50% ;
+}
+*{
+	font-family: 'Baloo Tamma', cursive;
+	
+}
+.logo{
+	width:60% ;
+	height: 6	0%;
+}
+.size{
+	font-size: 120%;
+}
+
+.img{
+	width: 20%;
+	height: 20%;
+}
+.caja{
+	border: 1px solid #00358E;
+	
+	background-color::#D8DADE ;
+}
+#musica{
+	width:100%;
+	height:40%;
+}
+
+.bloque{
+	border: 1px solid #00358E;
+	background-color::#f2f2f2 ;
+	padding: 7%;
+}
+.img-logo{
+	width: 20%;
+}
+.cuadro{
+	background-color: #D8DADE;
+	width:30% ;
+	height:30% ;
+}
+div>a{
+	color: #98BF13;
+	font-size: 150%;
+	font-family: 'Raleway', sans-serif
+}
+.align{
+	margin-top: 5%;
+}
+#music{
+	width: 20%;
+	height: 20%;
+}
