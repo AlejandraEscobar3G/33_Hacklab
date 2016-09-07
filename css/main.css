@@ -1,0 +1,43 @@
+/*EStilos de la pag bloque*/
+.bck{
+	background-color: #f2f2f2;
+}
+.bck-white{
+	background-color: white;
+	padding: 2%;
+}
+.img-prof{
+	float: left;
+}
+.text-white{
+	color: white;
+}
+.btn-bl{
+	width: 100%;
+}
+.btn-width{
+	width: 70%;
+	po
+}
+.mg-t-1{
+	margin-top: 1%;
+}
+.mg-2{
+	margin-top: 2%;
+}
+.mg-3{
+	margin-top: 3%;
+}
+.font-bal{
+	font-family: 'Baloo Tamma', cursive;
+}
+.font-ral{
+	font-family: 'Raleway', sans-serif;
+}
+.font-balpal{
+	font-family: 'Baloo Paaji', cursive;
+}
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+    background-color: #00378A;
+}

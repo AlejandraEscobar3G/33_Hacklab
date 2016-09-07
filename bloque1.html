@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bloque</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	  	<link rel="shortcut icon" href="favicon.ico">
+	  	<link rel="stylesheet" type="text/css" href="css/main.css">
+	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	  	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	  	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Baloo+Tamma|Raleway" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container-fluid bck">
+			<header>
+				<div class="row bck-white"><!--Primer row de la página-->
+					<div class="col-md-3 col-xs-3">
+						<a href="index.html"><img src="img/logo.png" alt="Logo" class="img-responsive"></a><!--Imagen del logo-->
+					</div>
+					<div class="col-md-3 col-xs-3">
+						<img src="img/prof.jpg" alt="Leda" class="img-responsive img-prof hidden-xs img-circle" >
+						<p class="fa-2x font-balpal mg-2">Pedro Struck</p>
+					</div>
+					<div class="col-md-3 col-xs-3">
+						<a href="grupo.html"><button type="button" class="btn btn-warning btn-lg btn-block"><p>2C Matemáticas</p></button>
+					</div>
+					<div class="col-md-3 col-xs-3">
+						<a href="profesor.html"><button type="button" class="btn btn-primary btn-lg btn-width center-block"><p>Salir</p></button></a>
+					</div>
+				</div><!--Fin del primer row-->
+				<div class="row mg-t-1 text-center">
+					<div class="col-md-12 col-xs-12">
+						<nav role="navigation" class="navbar navbar-default nav-col">
+							<div class="container">
+								 <div class="navbar-header">
+						            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+						                <span class="sr-only">Toggle navigation</span>
+						                <span class="icon-bar"></span>
+						                <span class="icon-bar"></span>
+						                <span class="icon-bar"></span>
+						            </button>
+						        </div>
+						        <div id="navbarCollapse" class="collapse navbar-collapse">
+						            <ul class="nav navbar-nav">
+						                <li class="mg-3"><!--Boton nuevo que tendra un modal-->
+						                	<button type="button" class="btn btn-info bt-az" data-toggle="modal" data-target="#ventana">Nuevo</button>
+											<div class="modal fade" id="ventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+												<div class=="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+															<h4 class="azul text-center">Archivos</h4>
+															<hr>
+														</div>
+														<div class="modal-body azul">
+															<form role="form">
+																<div class="form-group">
+																    <label for="Titulo">Titulo</label>
+																    <input type="text" class="form-control" id="nombre" placeholder="Introduce el nombre del archivo">
+																</div>
+																<div class="form-group">
+																<label for="echa de entrega">Fecha de entrega</label>
+																    <input for="Fecha de entrega" class="form-control" id="email" placeholder="Introduce la fechal">
+																</div>
+																<label for="Descripcion">Descripción</label>
+																	<div>
+																		<span class="glyphicon glyphicon-align-center"></span>
+																		<span class="glyphicon glyphicon-align-justify"></span>
+																		<span class="glyphicon glyphicon-align-left"></span>
+																		<span class="glyphicon glyphicon-align-right"></span>
+																		<span class="glyphicon glyphicon-bold"></span>
+																		<span class="glyphicon glyphicon-italic"></span>
+																		<span class="glyphicon glyphicon-list"></span>
+																		<span class="glyphicon glyphicon-paperclip"></span>
+																	</div>
+																	<textarea class="form-control" placeholder="Descripción" rows="10"></textarea>
+	                            								<div class="row mg-2">
+	                            									<div class="btn-group">
+	                            										<button type="submit" class="center-block btn btn-primary">Guardar</button>
+	                            										<button type="submit" class="center-block btn btn-primary">Enviar</button>
+	                            									</div>
+	                            								</div>
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+						                </li><!--Fin de boton nuevo-->
+						                <li><a href="#reciente"><button type="button" class="btn btn-info bt-az">Reciente</button></a></li>
+						                <li><a href="#importante"><button type="button" class="btn btn-info bt-az">Importate</button></a></li>
+						                <li><a href="lista.html"><button type="button" class="btn btn-info bt-az">Lista de alumnos</button></a></li>
+						            </ul>    
+						        </div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<section>
+				<div class="row"><!--Renglon principal -->
+					<div class="col-md-9 col-xs-12">
+						<h1 class="font-bal text-center">Bloque 1</h1>
+						<div class="row">
+							<div class="col-md-6 mg-2">
+								<a href="bloque1.html">
+									<button type="button" class="btn btn-success btn-bl">
+										<img src="img/write.png" alt="write" class="img-responsive center-block"><h2 class="font-balpal">Tarea1</h2>
+									</button>
+								</a>
+							</div>
+							<div class="col-md-6 mg-2">
+								<a href="bloque2.html">
+									<button type="button" class="btn btn-success btn-bl">
+										<img src="img/write.png" alt="write" class="img-responsive center-block"><h2 class="font-balpal">Tarea2</h2>
+									</button>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 mg-2">
+								<a href="bloque1.html">
+									<button type="button" class="btn btn-success btn-bl">
+										<img src="img/write.png" alt="write" class="img-responsive center-block"><h2 class="font-balpal">Material de ayuda <br>Ec de primer grado</h2>
+									</button>
+								</a>
+							</div>
+							<div class="col-md-6 mg-2">
+								<a href="bloque2.html">
+									<button type="button" class="btn btn-success btn-bl">
+										<img src="img/write.png" alt="write" class="img-responsive center-block"><h2 class="font-balpal">Ejercicios de clase <br>resueltos</h2>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="row">
+							<div class="col-md-12">
+								<p class="font-balpal fa-2x">Calendario</p>
+								<img src="img/calendario.png" alt="calendario" class="img-responsive">
+							</div>
+						</div>
+						<div class="row hidden-xs">
+							<div class="col-md-12">
+								<p class="font-bpalal fa-2x">Alumnos</p>
+								<img src="img/lista.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class=" navbar-inverse mg-2">
+				<footer class="pd-2 mg-0">
+						<div class="row">
+							<div class="col-xs-6">
+								<p class="text-white p_footer">Tel. 55-35-02-51-12</p>
+								<p class="text-white p_footer">Correo: edu-app@gmail.com</p>
+							</div>
+							<div class="col-xs-6">
+								<p class="text-right text-white p_footer">
+									<a href=""><i class="fa fa-facebook-square"></i></a>
+									<a href=""><i class="fa fa-twitter-square"></i></a>
+									<a href=""><i class="fa fa-google-plus-square"></i></a>
+								</p>
+							</div>
+						</div>
+						<div class="row">
+							<p class="text-center text-white">Edu-App &copy Derechos Reservados</p>
+						</div>
+				</footer>
+			</div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
